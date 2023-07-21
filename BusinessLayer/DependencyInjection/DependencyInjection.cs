@@ -13,7 +13,7 @@ namespace BusinessLayer.DependencyInjection
     {
         public override void Load()
         {
-            Bind<IPersonelDAL>().To<PersonelDAL>(); //const. methodları IpersonalDalla gideceğini belirttik.
+            Bind<IPersonelDAL>().To<PersonelDAL>(); 
             Bind<IUrunDAL>().To<UrunDAL>();
             Bind<PersonelServices>().To<PersonelServices>();
 
